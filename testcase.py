@@ -8,7 +8,8 @@
 import pytest
 import allure
 import requests
-
+import sys
+sys.path.append('./interfacetestcase')
 try:
     from interfacetestcase.tool import *
 except:

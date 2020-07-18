@@ -8,10 +8,9 @@
 import pytest
 import allure
 import sys
-from interfacetestcase.tool import *
-
 
 sys.path.append('.\interfacetestcase')
+from interfacetestcase.tool import *
 
 
 @allure.step('清空用户表：users')
