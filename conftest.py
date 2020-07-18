@@ -7,10 +7,11 @@
 # @software : PyCharm
 import pytest
 import allure
-try:
-    from interfacetestcase.tool import *
-except:
-    from tool import *
+import sys
+from interfacetestcase.tool import *
+
+
+sys.path.append('.\interfacetestcase')
 
 
 @allure.step('清空用户表：users')
