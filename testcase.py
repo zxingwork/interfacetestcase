@@ -15,7 +15,7 @@ try:
 except:
     from tool import *
 
-project_name = '博客接口'
+project_name = '接口'
 correct_register_data = [(random_string(7), random_string(10)),
                          (random_string(7), random_string(10)),
                          (random_string(7), random_string(10)),
