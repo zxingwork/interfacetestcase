@@ -34,7 +34,7 @@ error_register_data_password_null = [(random_string(7), ''),
                          (random_string(7), ''),
                          (random_string(7), ''),
                          (random_string(7), '')]
-base_url = 'http://120.24.148.131:9527'
+base_url = 'http://106.55.33.244:9527'
 register_path = base_url + '/register'
 login_path = base_url + '/login'
 
